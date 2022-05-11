@@ -30,7 +30,7 @@ useEffect(() => {
       traits={[{'value': 7}]} 
       image='https://ipfs.thirdweb.com/ipfs/QmZ5fD3UTRh8ALZCpMdypHkhMQSXyi4yyCz3Ea19kPmtXg/0.jpg' />
 
-
+      <Punklist punkListData={punkListData} />
     </div>
   );
 }
